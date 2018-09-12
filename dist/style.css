@@ -30,3 +30,24 @@
 .sunset-command:before {
   content: "\ea4e";
 }
+
+body{
+  overflow-x: hidden;
+  margin:0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  color: #2c3e50;
+  margin-top: 20px;
+
+}
+
+.highlight{
+  background: 	#a3e0c1 !important;
+  /* color: white; */
+  transition: all 0.2s ease-in-out;
+}
