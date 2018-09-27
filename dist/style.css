@@ -52,8 +52,11 @@ body{
   transition: all 0.2s ease-in-out;
 }
 
+input[type='number'] {
+  -moz-appearance:textfield;
+}
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {
-  -webkit-appearance: none;
+  -webkit-appearance: none !important;
   margin: 0;
 }
